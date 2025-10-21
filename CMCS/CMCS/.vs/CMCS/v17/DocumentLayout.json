@@ -3,6 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10443342_PROG6212_P2\\CMCS\\CMCS\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{994830FC-5789-4CC9-97FE-6E6C4D30D8B4}|..\\CMCS.Tests\\CMCS.Tests.csproj|c:\\users\\lab_services_student\\documents\\github\\st10443342_prog6212_p2\\cmcs\\cmcs.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{994830FC-5789-4CC9-97FE-6E6C4D30D8B4}|..\\CMCS.Tests\\CMCS.Tests.csproj|c:\\users\\lab_services_student\\documents\\github\\st10443342_prog6212_p2\\cmcs\\cmcs.tests\\testdatahelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{059CBC6F-525B-44BC-885A-42258B336EF5}|CMCS.csproj|c:\\users\\lab_services_student\\documents\\github\\st10443342_prog6212_p2\\cmcs\\cmcs\\views\\claims\\reject.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{059CBC6F-525B-44BC-885A-42258B336EF5}|CMCS.csproj|solutionrelative:views\\claims\\reject.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -22,7 +28,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,7 +40,33 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TestDataHelper.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10443342_PROG6212_P2\\CMCS\\CMCS.Tests\\TestDataHelper.cs",
+              "RelativeDocumentMoniker": "..\\CMCS.Tests\\TestDataHelper.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10443342_PROG6212_P2\\CMCS\\CMCS.Tests\\TestDataHelper.cs",
+              "RelativeToolTip": "..\\CMCS.Tests\\TestDataHelper.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAqwDAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T12:41:57.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10443342_PROG6212_P2\\CMCS\\CMCS.Tests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "..\\CMCS.Tests\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10443342_PROG6212_P2\\CMCS\\CMCS.Tests\\UnitTest1.cs",
+              "RelativeToolTip": "..\\CMCS.Tests\\UnitTest1.cs",
+              "ViewState": "AgIAAOQAAAAAAAAAAAAkwPUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T12:41:04.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Reject.cshtml",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10443342_PROG6212_P2\\CMCS\\CMCS\\Views\\Claims\\Reject.cshtml",
               "RelativeDocumentMoniker": "Views\\Claims\\Reject.cshtml",
@@ -47,7 +79,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10443342_PROG6212_P2\\CMCS\\CMCS\\Views\\Claims\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\Claims\\Details.cshtml",
@@ -60,7 +92,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10443342_PROG6212_P2\\CMCS\\CMCS\\Views\\Claims\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Claims\\Index.cshtml",

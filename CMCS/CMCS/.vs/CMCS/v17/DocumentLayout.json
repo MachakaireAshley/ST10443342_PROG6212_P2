@@ -3,8 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10443342_PROG6212_P2\\CMCS\\CMCS\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{059CBC6F-525B-44BC-885A-42258B336EF5}|CMCS.csproj|c:\\users\\lab_services_student\\documents\\github\\st10443342_prog6212_p2\\cmcs\\cmcs\\views\\home\\viewhistory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{059CBC6F-525B-44BC-885A-42258B336EF5}|CMCS.csproj|solutionrelative:views\\home\\viewhistory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{059CBC6F-525B-44BC-885A-42258B336EF5}|CMCS.csproj|c:\\users\\lab_services_student\\documents\\github\\st10443342_prog6212_p2\\cmcs\\cmcs\\views\\home\\uploaddocuments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{059CBC6F-525B-44BC-885A-42258B336EF5}|CMCS.csproj|solutionrelative:views\\home\\uploaddocuments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{059CBC6F-525B-44BC-885A-42258B336EF5}|CMCS.csproj|c:\\users\\lab_services_student\\documents\\github\\st10443342_prog6212_p2\\cmcs\\cmcs\\views\\home\\submitclaim.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{059CBC6F-525B-44BC-885A-42258B336EF5}|CMCS.csproj|solutionrelative:views\\home\\submitclaim.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{059CBC6F-525B-44BC-885A-42258B336EF5}|CMCS.csproj|c:\\users\\lab_services_student\\documents\\github\\st10443342_prog6212_p2\\cmcs\\cmcs\\views\\home\\generatereport.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{059CBC6F-525B-44BC-885A-42258B336EF5}|CMCS.csproj|solutionrelative:views\\home\\generatereport.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{059CBC6F-525B-44BC-885A-42258B336EF5}|CMCS.csproj|c:\\users\\lab_services_student\\documents\\github\\st10443342_prog6212_p2\\cmcs\\cmcs\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{059CBC6F-525B-44BC-885A-42258B336EF5}|CMCS.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{059CBC6F-525B-44BC-885A-42258B336EF5}|CMCS.csproj|c:\\users\\lab_services_student\\documents\\github\\st10443342_prog6212_p2\\cmcs\\cmcs\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{059CBC6F-525B-44BC-885A-42258B336EF5}|CMCS.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{059CBC6F-525B-44BC-885A-42258B336EF5}|CMCS.csproj|c:\\users\\lab_services_student\\documents\\github\\st10443342_prog6212_p2\\cmcs\\cmcs\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{059CBC6F-525B-44BC-885A-42258B336EF5}|CMCS.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{059CBC6F-525B-44BC-885A-42258B336EF5}|CMCS.csproj|c:\\users\\lab_services_student\\documents\\github\\st10443342_prog6212_p2\\cmcs\\cmcs\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{059CBC6F-525B-44BC-885A-42258B336EF5}|CMCS.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{059CBC6F-525B-44BC-885A-42258B336EF5}|CMCS.csproj|c:\\users\\lab_services_student\\documents\\github\\st10443342_prog6212_p2\\cmcs\\cmcs\\services\\userregistrationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,6 +59,97 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ViewHistory.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10443342_PROG6212_P2\\CMCS\\CMCS\\Views\\Home\\ViewHistory.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\ViewHistory.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10443342_PROG6212_P2\\CMCS\\CMCS\\Views\\Home\\ViewHistory.cshtml",
+              "RelativeToolTip": "Views\\Home\\ViewHistory.cshtml",
+              "ViewState": "AgIAALYAAAAAAAAAAAAqwL0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-21T12:17:26.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UploadDocuments.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10443342_PROG6212_P2\\CMCS\\CMCS\\Views\\Home\\UploadDocuments.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\UploadDocuments.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10443342_PROG6212_P2\\CMCS\\CMCS\\Views\\Home\\UploadDocuments.cshtml",
+              "RelativeToolTip": "Views\\Home\\UploadDocuments.cshtml",
+              "ViewState": "AgIAAJEAAAAAAAAAAAAcwL0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-21T12:16:57.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SubmitClaim.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10443342_PROG6212_P2\\CMCS\\CMCS\\Views\\Home\\SubmitClaim.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\SubmitClaim.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10443342_PROG6212_P2\\CMCS\\CMCS\\Views\\Home\\SubmitClaim.cshtml",
+              "RelativeToolTip": "Views\\Home\\SubmitClaim.cshtml",
+              "ViewState": "AgIAAIIAAAAAAAAAAAAcwNgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-21T12:15:59.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GenerateReport.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10443342_PROG6212_P2\\CMCS\\CMCS\\Views\\Home\\GenerateReport.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\GenerateReport.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10443342_PROG6212_P2\\CMCS\\CMCS\\Views\\Home\\GenerateReport.cshtml",
+              "RelativeToolTip": "Views\\Home\\GenerateReport.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAkwFgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-21T12:14:39.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10443342_PROG6212_P2\\CMCS\\CMCS\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10443342_PROG6212_P2\\CMCS\\CMCS\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAJ0AAAAAAAAAAAAkwMsAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-21T12:11:43.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10443342_PROG6212_P2\\CMCS\\CMCS\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10443342_PROG6212_P2\\CMCS\\CMCS\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAADQDAAAAAAAAAAAqwGIDAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-21T12:08:24.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10443342_PROG6212_P2\\CMCS\\CMCS\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10443342_PROG6212_P2\\CMCS\\CMCS\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T12:05:54.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10443342_PROG6212_P2\\CMCS\\CMCS\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -43,7 +162,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "UserRegistrationService.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10443342_PROG6212_P2\\CMCS\\CMCS\\Services\\UserRegistrationService.cs",
               "RelativeDocumentMoniker": "Services\\UserRegistrationService.cs",
@@ -51,8 +170,7 @@
               "RelativeToolTip": "Services\\UserRegistrationService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T12:01:33.967Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-21T12:01:33.967Z"
             }
           ]
         }

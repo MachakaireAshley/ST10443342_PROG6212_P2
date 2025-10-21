@@ -1,8 +1,204 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿@model CMCS.Models.DashboardViewModel
+
+@{
+    ViewData["Title"] = "Dashboard";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="row">
+    <div class="col-md-12">
+        <h1>Welcome to Your Claims Dashboard</h1>
+        <p class="text-muted">Claims overview for <strong>@ViewBag.CurrentMonth</strong></p>
+    </div>
+</div>
+
+<!-- Display success/error messages -->
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        @TempData["SuccessMessage"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        @TempData["ErrorMessage"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+
+<div class="row mt-4">
+    <div class="col-md-4">
+        <div class="card text-white mb-3" style="background-color: #444;">
+            <div class="card-body">
+                <h5 class="card-title display-6">@Model.PendingClaims</h5>
+                <p class="card-text">Pending Claims</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card text-white mb-3" style="background-color: #666;">
+            <div class="card-body">
+                <h5 class="card-title display-6">@Model.RejectedClaims</h5>
+                <p class="card-text">Rejected Claims</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card text-white mb-3" style="background-color: #888;">
+            <div class="card-body">
+                <h5 class="card-title display-6">@Model.AcceptedClaims</h5>
+                <p class="card-text">Accepted claims</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="row mt-4">
+    <div class="col-md-12">
+        <div class="card">
+            <div class="card-header">
+                Quick Actions
+            </div>
+            <div class="card-body">
+                <a href="@Url.Action("SubmitClaim", "Home")" class="btn btn-primary mr-2">
+                    <i class="bi bi-plus-circle"></i> Submit Claim
+                </a>
+                <a href="@Url.Action("UploadDocuments", "Home")" class="btn btn-secondary mr-2" style="background-color: #555; border-color: #666;">
+                    <i class="bi bi-upload"></i> Upload Documents
+                </a>
+
+                <a href="@Url.Action("Dashboard", "Coordinator")" class="btn btn-info mr-2" style="background-color: #2d3d4d; border-color: #3d4d6d;">
+                    <i class="bi bi-eye"></i> Coordinator View
+                </a>
+                <a href="@Url.Action("Dashboard", "Manager")" class="btn btn-warning mr-2" style="background-color: #4d3d2d; border-color: #6d4d3d;">
+                    <i class="bi bi-gear"></i> Manager View
+                </a>
+                <a href="@Url.Action("Index", "Claims")" class="btn btn-dark mr-2" style="background-color: #333; border-color: #444;">
+                    <i class="bi bi-list"></i> All Claims
+                </a>
+                <a href="@Url.Action("GenerateReport", "Home")" class="btn btn-info mr-2" style="background-color: #555; border-color: #666;">
+                    <i class="bi bi-file-earmark-bar-graph"></i> Generate Report
+                </a>
+                <a href="@Url.Action("ViewHistory", "Home")" class="btn btn-dark" style="background-color: #333; border-color: #444;">
+                    <i class="bi bi-clock-history"></i> View History
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row mt-4">
+    <div class="col-md-8">
+        <div class="card">
+            <div class="card-header d-flex justify-content-between align-items-center">
+                <span>Recent Claims</span>
+                <a href="@Url.Action("ViewHistory", "Home")" class="btn btn-sm btn-outline-primary">View All</a>
+            </div>
+            <div class="card-body">
+                <table class="table table-striped table-hover">
+                    <thead>
+                        <tr>
+                            <th>Claim ID</th>
+                            <th>Date Submitted</th>
+                            <th>Period</th>
+                            <th>Amount</th>
+                            <th>Status</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var claim in Model.RecentClaims)
+                        {
+                            <tr>
+                                <td>CL-@claim.ClaimId.ToString("D4")</td>
+                                <td>@claim.SubmitDate.ToString("yyyy-MM-dd")</td>
+                                <td>@claim.Period</td>
+                                <td>@claim.Amount.ToString("C")</td>
+                                <td>
+                                    @{
+                                        var badgeClass = claim.Status switch
+                                        {
+                                            ClaimStatus.Pending => "badge-pending",
+                                            ClaimStatus.Approved => "badge-approved",
+                                            ClaimStatus.Rejected => "badge-rejected",
+                                            ClaimStatus.CoordinatorApproved => "badge-waiting-manager",
+                                            _ => "bg-secondary"
+                                        };
+                                        var statusDisplay = claim.Status switch
+                                        {
+                                            ClaimStatus.Pending => "Pending",
+                                            ClaimStatus.Approved => "Approved",
+                                            ClaimStatus.Rejected => "Rejected",
+                                            ClaimStatus.CoordinatorApproved => "Pending - Manager",
+                                            _ => claim.Status.ToString()
+                                        };
+                                    }
+                                    <span class="badge @badgeClass">@statusDisplay</span>
+                                </td>
+                                <td>
+                                    <a href="@Url.Action("Details", "Claims", new { id = claim.ClaimId })" class="btn btn-sm btn-info" style="background-color: #555; border-color: #666;">
+                                        <i class="bi bi-eye"></i> View
+                                    </a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card mb-3">
+            <div class="card-header d-flex justify-content-between align-items-center">
+                <span>Notifications</span>
+                <span class="badge" style="background-color: #777;">@Model.Notifications.Count</span>
+            </div>
+            <div class="card-body p-0">
+                <ul class="list-group list-group-flush">
+                    @foreach (var notification in Model.Notifications)
+                    {
+                        <li class="list-group-item @(!notification.IsRead ? "list-group-item-primary" : "")">
+                            <div class="d-flex w-100 justify-content-between">
+                                <p class="mb-1">@notification.Content</p>
+                                <small>@notification.Date.ToString("MMM dd")</small>
+                            </div>
+                            @if (!notification.IsRead)
+                            {
+                                <span class="badge" style="background-color: #777;">New</span>
+                            }
+                        </li>
+                    }
+                </ul>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header d-flex justify-content-between align-items-center">
+                <span>Messages</span>
+                <span class="badge" style="background-color: #777;">@Model.Messages.Count</span>
+            </div>
+            <div class="card-body p-0">
+                <ul class="list-group list-group-flush">
+                    @foreach (var message in Model.Messages)
+                    {
+                        <li class="list-group-item @(!message.IsRead ? "list-group-item-info" : "")">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h6 class="mb-1">@message.Sender</h6>
+                                <small>@message.Date.ToString("MMM dd")</small>
+                            </div>
+                            <p class="mb-1">@message.Content</p>
+                            @if (!message.IsRead)
+                            {
+                                <span class="badge" style="background-color: #777;">New</span>
+                            }
+                        </li>
+                    }
+                </ul>
+            </div>
+        </div>
+    </div>
 </div>

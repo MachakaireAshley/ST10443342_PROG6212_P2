@@ -79,7 +79,7 @@ namespace CMCS.Controllers
             }
 
             // Coordinator approval - set status to CoordinatorApproved (not final)
-            claim.Status = ClaimStatus.CoordinatorApproved; // Changed from Pending to CoordinatorApproved
+            claim.Status = ClaimStatus.CoordinatorApproved; 
             claim.ProcessedByUserId = currentUser.Id;
             claim.ProcessedDate = DateTime.Now;
             claim.RejectionReason = null;

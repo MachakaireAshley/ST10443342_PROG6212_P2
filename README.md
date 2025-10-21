@@ -13,10 +13,10 @@ A comprehensive ASP.NET Core MVC web application for managing academic claims wi
 
 ##  User Roles
 
-| **Lecturer** | Submit claims, upload documents, view personal history |
-| **Coordinator** | Review and approve/reject claims, filter by status |
-| **Manager** | Final approval authority, comprehensive oversight |
-| **Administrator** | User management, system configuration, adds users|
+- **Lecturer**: Submit claims, upload documents, view personal history
+- **Coordinator**: Review and approve/reject claims, filter by status
+- **Manager**: Final approval authority, comprehensive oversight
+- **Administrator**: User management, system configuration, adds users
 
 ##  Workflow
 

@@ -1,18 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10443342_PROG6212_P2\\CMCS\\CMCS\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{059CBC6F-525B-44BC-885A-42258B336EF5}|CMCS.csproj|c:\\users\\lab_services_student\\documents\\github\\st10443342_prog6212_p2\\cmcs\\cmcs\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{059CBC6F-525B-44BC-885A-42258B336EF5}|CMCS.csproj|solutionrelative:data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{994830FC-5789-4CC9-97FE-6E6C4D30D8B4}|..\\CMCS.Tests\\CMCS.Tests.csproj|c:\\users\\lab_services_student\\documents\\github\\st10443342_prog6212_p2\\cmcs\\cmcs.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{994830FC-5789-4CC9-97FE-6E6C4D30D8B4}|..\\CMCS.Tests\\CMCS.Tests.csproj|c:\\users\\lab_services_student\\documents\\github\\st10443342_prog6212_p2\\cmcs\\cmcs.tests\\testdatahelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -20,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -29,44 +18,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SeedData.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10443342_PROG6212_P2\\CMCS\\CMCS\\Data\\SeedData.cs",
-              "RelativeDocumentMoniker": "Data\\SeedData.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10443342_PROG6212_P2\\CMCS\\CMCS\\Data\\SeedData.cs",
-              "RelativeToolTip": "Data\\SeedData.cs",
-              "ViewState": "AgIAACoAAAAANDMzM/MlwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T16:38:47.935Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TestDataHelper.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10443342_PROG6212_P2\\CMCS\\CMCS.Tests\\TestDataHelper.cs",
-              "RelativeDocumentMoniker": "..\\CMCS.Tests\\TestDataHelper.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10443342_PROG6212_P2\\CMCS\\CMCS.Tests\\TestDataHelper.cs",
-              "RelativeToolTip": "..\\CMCS.Tests\\TestDataHelper.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAqwDAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T12:41:57.861Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UnitTest1.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10443342_PROG6212_P2\\CMCS\\CMCS.Tests\\UnitTest1.cs",
-              "RelativeDocumentMoniker": "..\\CMCS.Tests\\UnitTest1.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\GitHub\\ST10443342_PROG6212_P2\\CMCS\\CMCS.Tests\\UnitTest1.cs",
-              "RelativeToolTip": "..\\CMCS.Tests\\UnitTest1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAPUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T12:41:04.492Z",
-              "EditorCaption": ""
             }
           ]
         }
